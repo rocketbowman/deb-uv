@@ -142,7 +142,7 @@ if [ "$ARCH" = "all" ]; then
     
     echo "🎉 All architectures built successfully!"
     echo "Generated packages:"
-    ls -la "uv_*.deb"
+    ls -la "*.deb" || true
 else
     # Build for single architecture
     if ! build_architecture "$ARCH"; then
