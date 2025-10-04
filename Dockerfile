@@ -1,4 +1,3 @@
-ARG DEBIAN_DIST=bookworm
 FROM debian:bookworm
 
 ARG DEBIAN_DIST

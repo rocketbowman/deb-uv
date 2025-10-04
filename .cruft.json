@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/rocketbowman/cookiecutter-deb",
-  "commit": "6c419e3eb30893f1e6aaeda8ebc5dd694a04b654",
+  "commit": "0e812e4e8c466af011cd1cf324cfbc82f4aaf25a",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -16,7 +16,7 @@
       "control_homepage": "https://github.com/astral-sh/uv",
       "control_description": "An extremely fast Python package and project manager, written in Rust.",
       "_template": "https://github.com/rocketbowman/cookiecutter-deb",
-      "_commit": "6c419e3eb30893f1e6aaeda8ebc5dd694a04b654"
+      "_commit": "0e812e4e8c466af011cd1cf324cfbc82f4aaf25a"
     }
   },
   "directory": null
