@@ -1,0 +1,4 @@
+#!/bin/bash
+uv cache clean
+rm -r "$(uv python dir)"
+rm -r "$(uv tool dir)"

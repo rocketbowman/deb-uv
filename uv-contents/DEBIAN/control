@@ -1,0 +1,8 @@
+Section: utils
+Priority: optional
+Maintainer: Kyle Bowman <kyle+git@rocketbowman.com>
+Homepage: https://github.com/astral-sh/uv
+Package: uv
+Version: UPSTREAM_VERSION-BUILD_VERSION+DIST
+Architecture: SUPPORTED_ARCHITECTURES
+Description: An extremely fast Python package and project manager, written in Rust.
