@@ -1,4 +1,7 @@
 #!/bin/bash
-uv cache clean
-rm -r "$(uv python dir)"
-rm -r "$(uv tool dir)"
+# Hmmm... you can't run the cleanup commands b/c they use user-specific dirs
+# and sudo (as in sudo apt remove uv) causes it to run as root.
+echo "Be sure to clean up your .local directories by running the following commands."
+echo 'uv cache clean'
+echo 'rm -rf "$(uv python dir)"'
+echo 'rm -rf "$(uv tool dir)"'
